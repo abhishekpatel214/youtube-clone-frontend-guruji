@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VidTube - Share Your Videos Here</title>
+    <link rel="stylesheet" href="path/to/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <link rel="stylesheet" type="text/css" href="popup.css">
+
+</head>
+
+<body>
+
+
+
+
+    <nav class="flex-div">
+
+        <!-- nav-left -->
+        <div class="nav-left flex-div">
+            <img src="images/menu.png" class="menu-icon">
+            <a href="index.html">
+                <img src="images/logo.png" class="logo">
+            </a>
+
+        </div>
+
+
+
+        <!-- nav-middle -->
+        <div class="nav-middle flex-div">
+
+            <div class="search-box flex-div">
+
+                <input type="text" placeholder="Search">
+                <img src="images/search.png" alt="Search">
+            </div>
+            <!-- <img src="images/voice-search.png" alt="Voice search" class="mic-icon"> -->
+
+        </div>
+
+
+        <!-- nav-right -->
+        <div class="nav-right flex-div">
+
+            <button id="btnupload" type="button" class="btn-user">
+                <img src="images/cloud-arrow-up-solid.svg">
+            </button>
+
+            <button id="btnnotice" type="button" class="btn-user">
+                <img src="images/envelope-solid.svg">
+            </button>
+
+            <button id="myBtn" type="button" class="btn-user">
+                <!-- Trigger/Open The Modal -->
+                <img src="images/circle-user-solid.svg" class="user-icon">
+            </button>
+
+        </div>
+    </nav>
+
+
+
+    <!--- upload section -->
+    
+    <div id="upload1" class="upload1">
+
+        <!-- Modal content -->
+        <div class="upload-content">
+            
+            <span class="close3">  &times;</span>
+            <br>
+          
+            <a href="index.html" class="uploadlink">
+               
+                <img src="images/upload-solid.svg">
+                <p>Upload Video</p>
+            </a>
+            <a href="index.html" class="uploadlink">
+                <img src="images/broadcast.svg">
+                <p>Go Live</p>
+            </a>
+        </div>
+
+    </div>
+
+
+
+
+    <div id="notification" class="notification">
+
+        <!-- Modal content -->
+        <div class="notification-content">
+            <span class="close2">&times;</span>
+            <div class="fram-noti">
+                <a href="index.html">
+                    <img src="images/Jack.png" class="video-icon">
+                    <p>Profile Profile Profile ProfileProfileProfileProfileProfileProfileProfile vProfileProfileProfile
+                    </p>
+                    <img src="images/thumbnail1.png" class="thumb-notification">
+
+                </a>
+                <p>15k views &bull; 2 days</p>
+            </div>
+
+            <div class="fram-noti">
+                <a href="index.html">
+                    <img src="images/Jack.png" class="video-icon">
+                    <p>Profile Profile Profile ProfileProfileProfileProfileProfileProfileProfile vProfileProfileProfile
+                    </p>
+                    <img src="images/thumbnail1.png" class="thumb-notification">
+
+                </a>
+                <p>15k views &bull; 2 days</p>
+            </div>
+
+            <div class="fram-noti">
+                <a href="index.html">
+                    <img src="images/Jack.png" class="video-icon">
+                    <p>Profile Profile Profile ProfileProfileProfileProfileProfileProfileProfile vProfileProfileProfile
+                    </p>
+                    <img src="images/thumbnail1.png" class="thumb-notification">
+
+                </a>
+                <p>15k views &bull; 2 days</p>
+            </div>
+
+            <div class="fram-noti">
+                <a href="index.html">
+                    <img src="images/Jack.png" class="video-icon">
+                    <p>Profile Profile Profile ProfileProfileProfileProfileProfileProfileProfile vProfileProfileProfile
+                    </p>
+                    <img src="images/thumbnail1.png" class="thumb-notification">
+
+                </a>
+                <p>15k views &bull; 2 days</p>
+            </div>
+
+            <div class="fram-noti">
+                <a href="index.html">
+                    <img src="images/Jack.png" class="video-icon">
+                    <p>Profile Profile Profile ProfileProfileProfileProfileProfileProfileProfile vProfileProfileProfile
+                    </p>
+                    <img src="images/thumbnail1.png" class="thumb-notification">
+
+                </a>
+                <p>15k views &bull; 2 days</p>
+            </div>
+
+            <div class="fram-noti">
+                <a href="index.html">
+                    <img src="images/Jack.png" class="video-icon">
+                    <p>Profile Profile Profile ProfileProfileProfileProfileProfileProfileProfile vProfileProfileProfile
+                    </p>
+                    <img src="images/thumbnail1.png" class="thumb-notification">
+
+                </a>
+                <p>15k views &bull; 2 days</p>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+
+
+    <!--   login/signup popup-->
+
+    <div id="myModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+            
+            <span class="close1">  &times;</span>
+            <br>
+          
+            <a href="index.html">
+               
+                <img src="images/circle-user-solid.svg" alt="Profile">
+                <p>Profile</p>
+            </a>
+            <a href="index.html">
+                <img src="images/video-solid.svg" alt="My Videos">
+                <p>My Videos</p>
+            </a>
+            <a href="index.html">
+                <img src="images/right-from-bracket-solid.svg" alt="LogOut">
+                <p>LogOut</p>
+            </a>
+            <hr>
+            <a href="index.html">
+                <img src="images/circle-info-solid.svg" alt="Help">
+                <p>Help</p>
+            </a>
+            <a href="index.html">
+                <img src="images/comment-solid.svg" alt="Fedback">
+                <p>Fedback</p>
+            </a>
+            <a href="index.html">
+                <img src="images/file-lines-solid.svg" alt="Terms & Conditions"  >
+                <p class="term">Terms & Conditions</p>
+            </a>
+
+
+
+
+
+        </div>
+
+    </div>
+
+
+    <!--   end login/signup popup-->
+
+    <!--   end login/signup popup-->
+
+
+
+
+
+
+
+
+    <div class="container play-container">
+        <div class="row-video">
+
+
+            <div class="play-video">
+                <video controls autoplay poster="/images/thumbnail4.png">
+                    <source src="images/video.mp4" type="video/mp4">
+                </video>
+                <br>
+
+                <div class="tags">
+                    <a href="">#javascript</a>
+                    <a href="">#javascript</a>
+                    <a href="">#javascript</a>
+                </div>
+                <h3>best channel for sharing video and doing nothing</h3>
+                <div class="play-video-info">
+                    <p>12k views &bull; 2 days ago</p>
+
+                    <div>
+                        <a href=""><img src="images/heart-solid.svg" style="width:20px; margin-right: 8px;">125</a>
+                        <a href=""><img src="images/heart-crack-solid.svg" style="width:20px; margin-right: 8px;">55</a>
+                        <a href=""><img src="images/share-nodes-solid.svg"
+                                style="width:20px; margin-right: 8px;">Share</a>
+
+                    </div>
+                </div>
+                <hr>
+
+
+                <div class="publisher">
+                    <img src="images/Jack.png" alt="">
+                    <div>
+                        <p>best channel</p>
+                        <span>500k subacriber</span>
+                    </div>
+                    <button type="button">Subscribe</button>
+                </div>
+
+                <div class="vid-description">
+
+                    <p>
+                        ukyew7iryewrheifdeuryere b ehr oirby342 328yre32 8y3e42r732 ye bfddvbcwf uf brfew8y
+                        euihewdifewgfif
+                    </p>
+                    <p>
+                        fewiuyew e eruie2yr32 ewgetrhgtr tytr tytry fv ew7r342 rrgewi wer 8er32i7ureyfhgsdyfewr
+                    </p>
+                    <hr class="playhr">
+                    <h4>134 comments</h4>
+                </div>
+                <div class="add-comment">
+                    <img src="images/Jack.png">
+                    <input type="text" placeholder="Write comments here">
+                </div>
+                <div class="old-comment">
+                    <img src="images/Jack.png">
+                    <div>
+                        <h3>jack jomson <span>2 days ago</span></h3>
+                        <p>The easiest way is to start a git issue, I will attempt to answer ASAP else I hope someone
+                            else will answer.</p>
+
+                    </div>
+                </div>
+
+                <div class="old-comment">
+                    <img src="images/Jack.png">
+                    <div>
+                        <h3>jack jomson <span>2 days ago</span></h3>
+                        <p>The easiest way is to start a git issue, I will attempt to answer ASAP else I hope someone
+                            else will answer.</p>
+                            
+                    </div>
+                </div>
+
+                <div class="old-comment">
+                    <img src="images/Jack.png">
+                    <div>
+                        <h3>jack jomson <span>2 days ago</span></h3>
+                        <p>The easiest way is to start a git issue, I will attempt to answer ASAP else I hope someone
+                            else will answer.</p>
+                            
+                    </div>
+                </div>
+
+                <div class="old-comment">
+                    <img src="images/Jack.png">
+                    <div>
+                        <h3>jack jomson <span>2 days ago</span></h3>
+                        <p>The easiest way is to start a git issue, I will attempt to answer ASAP else I hope someone
+                            else will answer.</p>
+                            
+                    </div>
+                </div>
+
+                <div class="old-comment">
+                    <img src="images/Jack.png">
+                    <div>
+                        <h3>jack jomson <span>2 days ago</span></h3>
+                        <p>The easiest way is to start a git issue, I will attempt to answer ASAP else I hope someone
+                            else will answer.</p>
+                            
+                    </div>
+                </div>
+
+                <hr class="playhr1">
+            </div>
+
+
+
+
+
+
+            <!-- side baar video list  -->
+            <div class="right-sidebaar">
+
+
+                <div class="side-video-list">
+                    <a href="" class="small-thumbnail">
+                        <img src="images/thumbnail1.png">
+                    </a>
+                    <div class="vid-info">
+                        <a href="">best channel that is important for your corirar</a>
+
+                        <p>guruji</p>
+
+                        <p>15k views</p>
+                    </div>
+                </div>
+
+                <div class="side-video-list">
+                    <a href="" class="small-thumbnail">
+                        <img src="images/thumbnail1.png">
+                    </a>
+                    <div class="vid-info">
+                        <a href="">best channel that is important for your corirar</a>
+
+                        <p>guruji</p>
+
+                        <p>15k views</p>
+                    </div>
+                </div>
+
+                <div class="side-video-list">
+                    <a href="" class="small-thumbnail">
+                        <img src="images/thumbnail1.png">
+                    </a>
+                    <div class="vid-info">
+                        <a href="">best channel that is important for your corirar</a>
+
+                        <p>guruji</p>
+
+                        <p>15k views</p>
+                    </div>
+                </div>
+
+                <div class="side-video-list">
+                    <a href="" class="small-thumbnail">
+                        <img src="images/thumbnail1.png">
+                    </a>
+                    <div class="vid-info">
+                        <a href="">best channel that is important for your corirar</a>
+
+                        <p>guruji</p>
+
+                        <p>15k views</p>
+                    </div>
+                </div>
+
+                <div class="side-video-list">
+                    <a href="" class="small-thumbnail">
+                        <img src="images/thumbnail1.png">
+                    </a>
+                    <div class="vid-info">
+                        <a href="">best channel that is important for your corirar</a>
+
+                        <p>guruji</p>
+
+                        <p>15k views</p>
+                    </div>
+                </div>
+
+                <div class="side-video-list">
+                    <a href="" class="small-thumbnail">
+                        <img src="images/thumbnail1.png">
+                    </a>
+                    <div class="vid-info">
+                        <a href="">best channel that is important for your corirar</a>
+
+                        <p>guruji</p>
+
+                        <p>15k views</p>
+                    </div>
+                </div>
+
+
+            </div>
+            <!-- side baar video list  -->
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

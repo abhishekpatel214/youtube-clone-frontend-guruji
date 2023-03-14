@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            
+            font-family: 'poppins', sans-serif;
+            box-sizing: border-box;
+        }
+
+        .login-container {
+
+            text-align: center;
+            margin-top: 5%;
+            margin-bottom: 2%;
+            border: 1px solid #d3cfcf;
+            border-radius: 5px;
+            margin-left: 36%;
+            margin-right: 36%;
+
+        }
+
+        .login-content {
+            text-align: center;
+            margin-top: 18%;
+            margin-bottom: 22%;
+
+
+
+        }
+
+        .login-content img {
+            width: 29%;
+            margin-bottom: 35px;
+        }
+
+        .login-content p {
+            font-weight: 600;
+            font-size: 20px;
+            margin-bottom: 20px;
+
+        }
+        .login-content input{
+            text-align: center;
+            font-size: 15px;
+            width: 50%;
+            border: 1px solid #ccc;
+            padding: 5px;
+            
+            border-radius: 10px;
+            margin-bottom: 15px;
+        }
+
+        .login-content button{
+            cursor: pointer;
+            
+            padding: 10px 20px;
+            font-size: 13px;
+            border-radius: 5px;
+            background-color: rgb(68, 89, 243);
+            color: white;
+            font-weight: 700;
+            border: none;
+        }
+
+@media (max-width: 900px) {
+
+
+    .login-container{
+        margin-left: 7%;
+            margin-right: 7%;
+
+    }
+
+    .login-content img {
+            width: 70%;
+            margin-bottom: 25px;
+        }
+
+       
+
+        .login-content p {
+            
+            font-size: 25px;
+            margin-bottom: 45px;
+
+        }
+
+        .login-content input{
+            
+            font-size: 20px;
+            width: 80%;
+          
+            padding: 20px;
+            margin-bottom: 30px;
+        }
+
+        .login-container{
+            margin-top: 35%;
+        }
+        .login-content button{
+            cursor: pointer;
+            padding: 20px 25px;
+            font-size: 20px;
+           
+        }
+
+
+
+}
+
+
+    </style>
+</head>
+
+<body>
+    <div class="login-container">
+        <div class="login-content">
+            <img src="images/logo.png" alt="logo">
+            <p>Login to Continue</p>
+
+            <input type="email" placeholder="Enter your Email/Mobile" id="loginemail">
+            
+            <input type="password" placeholder="Enter your Password" id="loginpassword">
+            <br>
+            <button type="submit"  id="submitdata" name="submitdata">Login</button>
+        </div>
+
+    </div>
+    <script src="jsfiles/login.js"></script>
+
+    
+</body>
+
+</html>

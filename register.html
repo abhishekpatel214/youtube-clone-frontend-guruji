@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+
+            font-family: 'poppins', sans-serif;
+            box-sizing: border-box;
+        }
+
+        .login-container {
+
+            text-align: center;
+            margin-top: 5%;
+            margin-bottom: 3%;
+            border: 1px solid #d3cfcf;
+            border-radius: 8px;
+            margin-left: 20%;
+            margin-right: 20%;
+        }
+
+        .login-content {
+            text-align: center;
+            margin-top: 4%;
+            margin-bottom: 5%;
+        }
+
+        .login-content img {
+            width: 29%;
+            margin-bottom: 35px;
+        }
+        .login-content p {
+            font-weight: 600;
+            font-size: 25px;
+            margin-bottom: 20px;
+
+        }
+
+        .register-content{
+            flex-wrap: wrap;
+        }
+        .register-content p {
+            font-weight: 600;
+            font-size: 18px;
+
+        }
+
+
+
+
+
+        @media (max-width: 900px) {}
+    </style>
+</head>
+
+<body>
+    <div class="login-container">
+        <div class="login-content">
+            <a href="index.html">
+            <img src="images/logo.png" alt="logo"></a>
+            <p>Register For Guruji</p>
+
+            <div class="register-content">
+                <p>Name</p>
+                <input type="text" placeholder="Full Name" id="fullName">
+                <p>Mobile Number</p>
+                <input type="text" placeholder="Enter your Number" id="mobileNumber">
+                <p>Email address</p>
+                <input type="email" placeholder="Enter your Email" id="email">
+                <p>Password</p>
+                <input type="password" placeholder="Enter your Password" id="pass">
+
+            </div>
+
+
+
+
+            <br>
+            <button type="submit" id="submitdata" name="submitdata">Login</button>
+        </div>
+
+    </div>
+    <script src="jsfiles/login.js"></script>
+
+
+</body>
+
+</html>

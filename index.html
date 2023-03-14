@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VidTube - Share Your Videos Here</title>
+    <link rel="stylesheet" href="path/to/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <link rel="stylesheet" type="text/css" href="popup.css">
+
+</head>
+
+<body>
+
+
+
+
+    <nav class="flex-div">
+
+        <!-- nav-left -->
+        <div class="nav-left flex-div">
+            <img src="images/menu.png" class="menu-icon">
+            <a href="index.html">
+                <img src="images/logo.png" class="logo">
+            </a>
+
+        </div>
+
+
+
+        <!-- nav-middle -->
+        <div class="nav-middle flex-div">
+
+            <div class="search-box flex-div">
+
+                <input type="text" placeholder="Search">
+                <img src="images/search.png" alt="Search">
+            </div>
+            <!-- <img src="images/voice-search.png" alt="Voice search" class="mic-icon"> -->
+
+        </div>
+
+
+        <!-- nav-right -->
+        <div class="nav-right flex-div">
+
+            <button id="btnupload" type="button" class="btn-user">
+                <img src="images/cloud-arrow-up-solid.svg">
+            </button>
+
+            <button id="btnnotice" type="button" class="btn-user">
+                <img src="images/envelope-solid.svg">
+            </button>
+
+            <button id="myBtn" type="button" class="btn-user">
+                <!-- Trigger/Open The Modal -->
+                <img src="images/circle-user-solid.svg" class="user-icon">
+            </button>
+
+        </div>
+    </nav>
+
+
+
+    <!--- upload section -->
+    
+    <div id="upload1" class="upload1">
+
+        <!-- Modal content -->
+        <div class="upload-content">
+            
+            <span class="close3">  &times;</span>
+            <br>
+          
+            <a href="index.html" class="uploadlink">
+               
+                <img src="images/upload-solid.svg">
+                <p>Upload Video</p>
+            </a>
+            <a href="index.html" class="uploadlink">
+                <img src="images/broadcast.svg">
+                <p>Go Live</p>
+            </a>
+        </div>
+
+    </div>
+
+
+
+
+    <div id="notification" class="notification">
+
+        <!-- Modal content -->
+        <div class="notification-content">
+            <span class="close2">&times;</span>
+            <div class="fram-noti">
+                <a href="index.html">
+                    <img src="images/Jack.png" class="video-icon">
+                    <p>Profile Profile Profile ProfileProfileProfileProfileProfileProfileProfile vProfileProfileProfile
+                    </p>
+                    <img src="images/thumbnail1.png" class="thumb-notification">
+
+                </a>
+                <p>15k views &bull; 2 days</p>
+            </div>
+
+            <div class="fram-noti">
+                <a href="index.html">
+                    <img src="images/Jack.png" class="video-icon">
+                    <p>Profile Profile Profile ProfileProfileProfileProfileProfileProfileProfile vProfileProfileProfile
+                    </p>
+                    <img src="images/thumbnail1.png" class="thumb-notification">
+
+                </a>
+                <p>15k views &bull; 2 days</p>
+            </div>
+
+            <div class="fram-noti">
+                <a href="index.html">
+                    <img src="images/Jack.png" class="video-icon">
+                    <p>Profile Profile Profile ProfileProfileProfileProfileProfileProfileProfile vProfileProfileProfile
+                    </p>
+                    <img src="images/thumbnail1.png" class="thumb-notification">
+
+                </a>
+                <p>15k views &bull; 2 days</p>
+            </div>
+
+            <div class="fram-noti">
+                <a href="index.html">
+                    <img src="images/Jack.png" class="video-icon">
+                    <p>Profile Profile Profile ProfileProfileProfileProfileProfileProfileProfile vProfileProfileProfile
+                    </p>
+                    <img src="images/thumbnail1.png" class="thumb-notification">
+
+                </a>
+                <p>15k views &bull; 2 days</p>
+            </div>
+
+            <div class="fram-noti">
+                <a href="index.html">
+                    <img src="images/Jack.png" class="video-icon">
+                    <p>Profile Profile Profile ProfileProfileProfileProfileProfileProfileProfile vProfileProfileProfile
+                    </p>
+                    <img src="images/thumbnail1.png" class="thumb-notification">
+
+                </a>
+                <p>15k views &bull; 2 days</p>
+            </div>
+
+            <div class="fram-noti">
+                <a href="index.html">
+                    <img src="images/Jack.png" class="video-icon">
+                    <p>Profile Profile Profile ProfileProfileProfileProfileProfileProfileProfile vProfileProfileProfile
+                    </p>
+                    <img src="images/thumbnail1.png" class="thumb-notification">
+
+                </a>
+                <p>15k views &bull; 2 days</p>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+
+
+    <!--   login/signup popup-->
+
+    <div id="myModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+            
+            <span class="close1">  &times;</span>
+            <br>
+          
+            <a href="index.html">
+               
+                <img src="images/circle-user-solid.svg" alt="Profile">
+                <p>Profile</p>
+            </a>
+            <a href="index.html">
+                <img src="images/video-solid.svg" alt="My Videos">
+                <p>My Videos</p>
+            </a>
+            <a href="index.html">
+                <img src="images/right-from-bracket-solid.svg" alt="LogOut">
+                <p>LogOut</p>
+            </a>
+            <hr>
+            <a href="index.html">
+                <img src="images/circle-info-solid.svg" alt="Help">
+                <p>Help</p>
+            </a>
+            <a href="index.html">
+                <img src="images/comment-solid.svg" alt="Fedback">
+                <p>Fedback</p>
+            </a>
+            <a href="index.html">
+                <img src="images/file-lines-solid.svg" alt="Terms & Conditions"  >
+                <p class="term">Terms & Conditions</p>
+            </a>
+
+
+
+
+
+        </div>
+
+    </div>
+
+
+    <!--   end login/signup popup-->
+
+
+
+
+
+
+
+
+
+
+    <!-- side baar   -->
+
+
+    <div class="side-baar">
+        <div class="short-link">
+            <a href="index.html">
+                <img src="images/house-chimney-solid.svg" alt="home">
+                <p>Home</p>
+            </a>
+
+
+            <a href="">
+                <img src="images/video-solid.svg" alt="My Videos">
+                <p>My Videos</p>
+            </a>
+
+            <a href="">
+                <img src="images/audio-description-solid.svg" alt="Library">
+                <p>advertisement</p>
+            </a>
+
+            <a href="">
+                <img src="images/clock-rotate-left-solid.svg" alt="History">
+                <p>History</p>
+            </a>
+
+            <a href="">
+                <img src="images/book-open-solid.svg" alt="Playlist">
+                <p>Playlist</p>
+            </a>
+
+
+
+            <hr>
+        </div>
+
+        <div class="subscription-list">
+            <h3>SUBSCRIBED</h3>
+            <a href="">
+                <img src="images/Jack.png" alt="Subscriber">
+                <p>Jack</p>
+            </a>
+
+            <a href="">
+                <img src="images/simon.png" alt="Subscriber">
+                <p>simon jack</p>
+            </a>
+            <a href="">
+                <img src="images/tom.png" alt="Subscriber">
+                <p>Jack</p>
+            </a>
+            <a href="">
+                <img src="images/megan.png" alt="Subscriber">
+                <p>Jack</p>
+            </a>
+
+            <a href="">
+                <img src="images/cameron.png" alt="Subscriber">
+                <p>Jack</p>
+            </a>
+
+        </div>
+
+
+    </div>
+
+    <!---------- main-------->
+
+    <div class="container">
+        <div class="banner">
+            <img src="images/banner.png" alt="banner">
+        </div>
+
+
+
+        <div class="main-videos">
+            <div class="vid-list">
+                <a href="video.html">
+                    <img src="images/thumbnail1.png" class="thumbnail1">
+                </a>
+
+                <div class="flex-div">
+                    <img src="images/Jack.png" alt="">
+                    <div class="vid-info">
+                        <a href="video.html">Request and perform code reviews from inside your IDE. Review any code,
+                            even
+                            if it's a work-in-progress that hasn't been</a>
+
+                        <p>channel name</p>
+                        <p>15k views &bull; 2 days</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="vid-list">
+                <a href="video.html">
+                    <img src="images/thumbnail2.png" class="thumbnail1">
+                </a>
+
+                <div class="flex-div">
+                    <img src="images/Jack.png" alt="">
+                    <div class="vid-info">
+                        <a href="video.html">Request and perform code reviews from inside your IDE. Review any code,
+                            even
+                            if it's a work-in-progress that hasn't been</a>
+
+                        <p>channel name</p>
+                        <p>15k views &bull; 2 days</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="vid-list">
+                <a href="video.html">
+                    <img src="images/thumbnail3.png" class="thumbnail1">
+                </a>
+
+                <div class="flex-div">
+                    <img src="images/Jack.png" alt="">
+                    <div class="vid-info">
+                        <a href="video.html">Request and perform code reviews from inside your IDE. Review any code,
+                            even
+                            if it's a work-in-progress that hasn't been</a>
+
+                        <p>channel name</p>
+                        <p>15k views &bull; 2 days</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="vid-list">
+                <a href="video.html">
+                    <img src="images/thumbnail4.png" class="thumbnail1">
+                </a>
+
+                <div class="flex-div">
+                    <img src="images/Jack.png" alt="">
+                    <div class="vid-info">
+                        <a href="video.html">Request and perform code reviews from inside your IDE. Review any code,
+                            even
+                            if it's a work-in-progress that hasn't been</a>
+
+                        <p>channel name</p>
+                        <p>15k views &bull; 2 days</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="vid-list">
+                <a href="video.html">
+                    <img src="images/thumbnail5.png" class="thumbnail1">
+                </a>
+
+                <div class="flex-div">
+                    <img src="images/Jack.png" alt="">
+                    <div class="vid-info">
+                        <a href="video.html">Request and perform code reviews from inside your IDE. Review any code,
+                            even
+                            if it's a work-in-progress that hasn't been</a>
+
+                        <p>channel name</p>
+                        <p>15k views &bull; 2 days</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="vid-list">
+                <a href="video.html">
+                    <img src="images/thumbnail6.png" class="thumbnail1">
+                </a>
+
+                <div class="flex-div">
+                    <img src="images/Jack.png" alt="">
+                    <div class="vid-info">
+                        <a href="video.html">
+                            <p maxlength=""> Request and perform code reviews from inside your IDE. Review any code,
+                                even
+                                if it's a work-in-progress that hasn't been </p>
+                        </a>
+
+                        <p>channel name</p>
+                        <p>15k views &bull; 2 days</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="vid-list">
+                <a href="video.html">
+                    <img src="images/thumbnail7.png" class="thumbnail1">
+                </a>
+
+                <div class="flex-div">
+                    <img src="images/Jack.png" alt="">
+                    <div class="vid-info">
+                        <a href="video.html">Request and perform code reviews from inside your IDE. Review any code,
+                            even
+                            if it's a work-in-progress that hasn't been </a>
+
+                        <p>channel name</p>
+                        <p>15k views &bull; 2 days</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
